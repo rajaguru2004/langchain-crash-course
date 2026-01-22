@@ -1,0 +1,62 @@
+
+--- Relevant Documents ---
+Document 1:
+And Ulysses answered, “It would be a long story Madam, were I to relate
+in full the tale of my misfortunes, for the hand of heaven has been
+laid heavy upon me; but as regards your question, there is an island
+far away in the sea which is called ‘the Ogygian.’ Here dwells the
+cunning and powerful goddess Calypso, daughter of Atlas. She lives by
+herself far from all neighbours human or divine. Fortune, however,
+brought me to her hearth all desolate and alone, for Jove struck my
+ship with his thunderbolts, and broke it up in mid-ocean. My brave
+comrades were drowned every man of them, but I stuck to the keel and
+was carried hither and thither for the space of nine days, till at last
+during the darkness of the tenth night the gods brought me to the
+Ogygian island where the great goddess Calypso lives. She took me in
+and treated me with the utmost kindness; indeed she wanted to make me
+immortal that I might never grow old, but she could not persuade me to
+let her do so.
+
+Source: /home/tony/Documents/langchain-crash-course/4_rag/books/odyssey.txt
+
+Document 2:
+“On this she went back to the house. The Phoenicians stayed a whole
+year till they had loaded their ship with much precious merchandise,
+and then, when they had got freight enough, they sent to tell the
+woman. Their messenger, a very cunning fellow, came to my father’s
+house bringing a necklace of gold with amber beads strung among it; and
+while my mother and the servants had it in their hands admiring it and
+bargaining about it, he made a sign quietly to the woman and then went
+back to the ship, whereon she took me by the hand and led me out of the
+house. In the fore part of the house she saw the tables set with the
+cups of guests who had been feasting with my father, as being in
+attendance on him; these were now all gone to a meeting of the public
+assembly, so she snatched up three cups and carried them off in the
+bosom of her dress, while I followed her, for I knew no better. The sun
+was now set, and darkness was over all the land, so we hurried on as
+fast as we could till we reached the harbour, where the Phoenician ship
+was lying. When they had got on board they sailed their ways over the
+sea, taking us with them, and Jove sent then a fair wind; six days did
+we sail both night and day, but on the seventh day Diana struck the
+woman and she fell heavily down into the ship’s hold as though she were
+a sea gull alighting on the water; so they threw her overboard to the
+seals and fishes, and I was left all sorrowful and alone. Presently the
+winds and waves took the ship to Ithaca, where Laertes gave sundry of
+his chattels for me, and thus it was that ever I came to set eyes upon
+this country.”
+
+Source: /home/tony/Documents/langchain-crash-course/4_rag/books/odyssey.txt
+
+Document 3:
+“Ulysses, noble son of Laertes, so you would start home to your own
+land at once? Good luck go with you, but if you could only know how
+much suffering is in store for you before you get back to your own
+country, you would stay where you are, keep house along with me, and
+let me make you immortal, no matter how anxious you may be to see this
+wife of yours, of whom you are thinking all the time day after day; yet
+I flatter myself that I am no whit less tall or well-looking than she
+is, for it is not to be expected that a mortal woman should compare in
+beauty with an immortal.”
+
+Source: /home/tony/Documents/langchain-crash-course/4_rag/books/odyssey.txt
+

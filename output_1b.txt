@@ -1,0 +1,4 @@
+/home/tony/.cache/pypoetry/virtualenvs/langchain-crash-course-gIxPr81O-py3.11/lib/python3.11/site-packages/langchain_core/vectorstores.py:391: UserWarning: No relevant docs were retrieved using the relevance score threshold 0.9
+  warnings.warn(
+
+--- Relevant Documents ---

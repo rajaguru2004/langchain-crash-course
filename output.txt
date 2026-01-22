@@ -1,0 +1,206 @@
+Created a chunk of size 1141, which is longer than the specified 1000
+Created a chunk of size 2086, which is longer than the specified 1000
+Created a chunk of size 1121, which is longer than the specified 1000
+Created a chunk of size 1366, which is longer than the specified 1000
+Created a chunk of size 1011, which is longer than the specified 1000
+Created a chunk of size 1639, which is longer than the specified 1000
+Created a chunk of size 1219, which is longer than the specified 1000
+Created a chunk of size 1875, which is longer than the specified 1000
+Created a chunk of size 1307, which is longer than the specified 1000
+Created a chunk of size 2271, which is longer than the specified 1000
+Created a chunk of size 1430, which is longer than the specified 1000
+Created a chunk of size 1763, which is longer than the specified 1000
+Created a chunk of size 1575, which is longer than the specified 1000
+Created a chunk of size 1028, which is longer than the specified 1000
+Created a chunk of size 1149, which is longer than the specified 1000
+Created a chunk of size 1199, which is longer than the specified 1000
+Created a chunk of size 1604, which is longer than the specified 1000
+Created a chunk of size 1832, which is longer than the specified 1000
+Created a chunk of size 1093, which is longer than the specified 1000
+Created a chunk of size 1995, which is longer than the specified 1000
+Created a chunk of size 1463, which is longer than the specified 1000
+Created a chunk of size 1098, which is longer than the specified 1000
+Created a chunk of size 1053, which is longer than the specified 1000
+Created a chunk of size 1027, which is longer than the specified 1000
+Created a chunk of size 1315, which is longer than the specified 1000
+Created a chunk of size 1627, which is longer than the specified 1000
+Created a chunk of size 1063, which is longer than the specified 1000
+Created a chunk of size 1051, which is longer than the specified 1000
+Created a chunk of size 1265, which is longer than the specified 1000
+Created a chunk of size 1202, which is longer than the specified 1000
+Created a chunk of size 1509, which is longer than the specified 1000
+Created a chunk of size 1153, which is longer than the specified 1000
+Created a chunk of size 1043, which is longer than the specified 1000
+Created a chunk of size 1336, which is longer than the specified 1000
+Created a chunk of size 1111, which is longer than the specified 1000
+Created a chunk of size 1205, which is longer than the specified 1000
+Created a chunk of size 1158, which is longer than the specified 1000
+Created a chunk of size 1004, which is longer than the specified 1000
+Created a chunk of size 1155, which is longer than the specified 1000
+Created a chunk of size 1085, which is longer than the specified 1000
+Created a chunk of size 1064, which is longer than the specified 1000
+Created a chunk of size 1078, which is longer than the specified 1000
+Created a chunk of size 1827, which is longer than the specified 1000
+Created a chunk of size 1188, which is longer than the specified 1000
+Created a chunk of size 1058, which is longer than the specified 1000
+Created a chunk of size 1226, which is longer than the specified 1000
+Created a chunk of size 1419, which is longer than the specified 1000
+Created a chunk of size 1223, which is longer than the specified 1000
+Created a chunk of size 1284, which is longer than the specified 1000
+Created a chunk of size 1112, which is longer than the specified 1000
+Created a chunk of size 1437, which is longer than the specified 1000
+Created a chunk of size 1030, which is longer than the specified 1000
+Created a chunk of size 1094, which is longer than the specified 1000
+Created a chunk of size 1079, which is longer than the specified 1000
+Created a chunk of size 1073, which is longer than the specified 1000
+Created a chunk of size 1550, which is longer than the specified 1000
+Created a chunk of size 1737, which is longer than the specified 1000
+Created a chunk of size 1038, which is longer than the specified 1000
+Created a chunk of size 1011, which is longer than the specified 1000
+Created a chunk of size 1382, which is longer than the specified 1000
+Created a chunk of size 1184, which is longer than the specified 1000
+Created a chunk of size 1378, which is longer than the specified 1000
+Created a chunk of size 1052, which is longer than the specified 1000
+Created a chunk of size 1402, which is longer than the specified 1000
+Created a chunk of size 1047, which is longer than the specified 1000
+Created a chunk of size 1163, which is longer than the specified 1000
+Created a chunk of size 1403, which is longer than the specified 1000
+Created a chunk of size 1077, which is longer than the specified 1000
+Created a chunk of size 1588, which is longer than the specified 1000
+Created a chunk of size 1228, which is longer than the specified 1000
+Created a chunk of size 1337, which is longer than the specified 1000
+Created a chunk of size 1469, which is longer than the specified 1000
+Created a chunk of size 1269, which is longer than the specified 1000
+Created a chunk of size 1106, which is longer than the specified 1000
+Created a chunk of size 1492, which is longer than the specified 1000
+Created a chunk of size 1219, which is longer than the specified 1000
+Created a chunk of size 1165, which is longer than the specified 1000
+Created a chunk of size 1115, which is longer than the specified 1000
+Created a chunk of size 1505, which is longer than the specified 1000
+Created a chunk of size 1549, which is longer than the specified 1000
+Created a chunk of size 1309, which is longer than the specified 1000
+Created a chunk of size 1290, which is longer than the specified 1000
+Created a chunk of size 1593, which is longer than the specified 1000
+Created a chunk of size 1292, which is longer than the specified 1000
+Created a chunk of size 1136, which is longer than the specified 1000
+Created a chunk of size 1162, which is longer than the specified 1000
+Created a chunk of size 1003, which is longer than the specified 1000
+Created a chunk of size 1065, which is longer than the specified 1000
+Created a chunk of size 1403, which is longer than the specified 1000
+Created a chunk of size 1564, which is longer than the specified 1000
+Created a chunk of size 1776, which is longer than the specified 1000
+Created a chunk of size 1006, which is longer than the specified 1000
+Created a chunk of size 1377, which is longer than the specified 1000
+Created a chunk of size 1289, which is longer than the specified 1000
+Created a chunk of size 1727, which is longer than the specified 1000
+Created a chunk of size 1555, which is longer than the specified 1000
+Created a chunk of size 1619, which is longer than the specified 1000
+Created a chunk of size 1059, which is longer than the specified 1000
+Created a chunk of size 1013, which is longer than the specified 1000
+Created a chunk of size 1180, which is longer than the specified 1000
+Created a chunk of size 1897, which is longer than the specified 1000
+Created a chunk of size 1412, which is longer than the specified 1000
+Created a chunk of size 1740, which is longer than the specified 1000
+Created a chunk of size 1126, which is longer than the specified 1000
+Created a chunk of size 1003, which is longer than the specified 1000
+Created a chunk of size 1126, which is longer than the specified 1000
+Created a chunk of size 1384, which is longer than the specified 1000
+Created a chunk of size 1688, which is longer than the specified 1000
+Created a chunk of size 1035, which is longer than the specified 1000
+Created a chunk of size 2424, which is longer than the specified 1000
+Created a chunk of size 2028, which is longer than the specified 1000
+Created a chunk of size 1697, which is longer than the specified 1000
+Created a chunk of size 2474, which is longer than the specified 1000
+Created a chunk of size 1327, which is longer than the specified 1000
+Created a chunk of size 1225, which is longer than the specified 1000
+Created a chunk of size 1118, which is longer than the specified 1000
+Created a chunk of size 1999, which is longer than the specified 1000
+Created a chunk of size 2401, which is longer than the specified 1000
+Created a chunk of size 1227, which is longer than the specified 1000
+Created a chunk of size 1074, which is longer than the specified 1000
+Created a chunk of size 1810, which is longer than the specified 1000
+Created a chunk of size 1065, which is longer than the specified 1000
+Created a chunk of size 1528, which is longer than the specified 1000
+Created a chunk of size 1122, which is longer than the specified 1000
+Created a chunk of size 2149, which is longer than the specified 1000
+Created a chunk of size 1226, which is longer than the specified 1000
+Created a chunk of size 1008, which is longer than the specified 1000
+Created a chunk of size 1504, which is longer than the specified 1000
+Created a chunk of size 1119, which is longer than the specified 1000
+Created a chunk of size 1107, which is longer than the specified 1000
+Created a chunk of size 1194, which is longer than the specified 1000
+Created a chunk of size 1031, which is longer than the specified 1000
+Created a chunk of size 1034, which is longer than the specified 1000
+Created a chunk of size 1386, which is longer than the specified 1000
+Created a chunk of size 1235, which is longer than the specified 1000
+Created a chunk of size 1004, which is longer than the specified 1000
+Created a chunk of size 1792, which is longer than the specified 1000
+Created a chunk of size 1132, which is longer than the specified 1000
+Created a chunk of size 1055, which is longer than the specified 1000
+Created a chunk of size 1189, which is longer than the specified 1000
+Created a chunk of size 1528, which is longer than the specified 1000
+Created a chunk of size 2049, which is longer than the specified 1000
+Created a chunk of size 1097, which is longer than the specified 1000
+Created a chunk of size 1860, which is longer than the specified 1000
+Created a chunk of size 1296, which is longer than the specified 1000
+Created a chunk of size 1369, which is longer than the specified 1000
+Created a chunk of size 1121, which is longer than the specified 1000
+Created a chunk of size 1285, which is longer than the specified 1000
+Created a chunk of size 1736, which is longer than the specified 1000
+Created a chunk of size 1637, which is longer than the specified 1000
+Created a chunk of size 1184, which is longer than the specified 1000
+Created a chunk of size 1045, which is longer than the specified 1000
+Created a chunk of size 1132, which is longer than the specified 1000
+Created a chunk of size 1674, which is longer than the specified 1000
+Persistent directory does not exist. Initializing vector store...
+
+--- Document Chunks Information ---
+Number of document chunks: 826
+Sample chunk:
+﻿The Project Gutenberg eBook of The Odyssey
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: The Odyssey
+
+Author: Homer
+
+Translator: Samuel Butler
+
+Release date: April 1, 1999 [eBook #1727]
+                Most recently updated: December 2, 2023
+
+Language: English
+
+Credits: Jim Tinsley and David Widger
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK THE ODYSSEY ***
+
+
+[Illustration]
+
+
+The Odyssey
+
+by Homer
+
+rendered into English prose for the use of those who cannot read the
+original
+
+Contents
+
+
+--- Creating embeddings ---
+
+--- Finished creating embeddings ---
+
+--- Creating vector store ---
+
+--- Finished creating vector store ---
