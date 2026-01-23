@@ -1,10 +1,13 @@
 import os
+from dotenv import load_dotenv
 
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
-from langchain_openai import OpenAIEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings
+
+load_dotenv()
 
 # Define the directory containing the text file and the persistent directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -50,7 +53,7 @@ def create_vector_store(docs, embeddings, store_name):
 # Note: The cost of using OpenAI embeddings will depend on your OpenAI API usage and pricing plan.
 # Pricing: https://openai.com/api/pricing/
 print("\n--- Using OpenAI Embeddings ---")
-openai_embeddings = OpenAIEmbeddings(model="text-embedding-ada-002")
+openai_embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
 create_vector_store(docs, openai_embeddings, "chroma_db_openai")
 
 # 2. Hugging Face Transformers
