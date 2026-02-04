@@ -1,13 +1,14 @@
 import os
+print("Starting RAG script...")
 
 from dotenv import load_dotenv
 from langchain_community.vectorstores import Chroma
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 # Load environment variables from .env
 load_dotenv()
-
 # Define the persistent directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 persistent_directory = os.path.join(
@@ -45,7 +46,7 @@ combined_input = (
 )
 
 # Create a ChatOpenAI model
-model = GoogleGenerativeAI(model="models/gemini-2.0-flash-128k")
+model = ChatGoogleGenerativeAI(model="gemini-pro")
 
 # Define the messages for the model
 messages = [
