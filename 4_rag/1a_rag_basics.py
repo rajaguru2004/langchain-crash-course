@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 from langchain_community.vectorstores import Chroma
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 
 # Load environment variables from .env
 load_dotenv()
@@ -38,11 +37,10 @@ if not os.path.exists(persistent_directory):
     print(f"Number of document chunks: {len(docs)}")
     print(f"Sample chunk:\n{docs[0].page_content}\n")
 
-    # Create embeddings
+    # Create embeddings - using HuggingFace (free, runs locally)
     print("\n--- Creating embeddings ---")
-    embeddings = GoogleGenerativeAIEmbeddings(
-        model="models/text-embedding-004"
-    )  # Update to a valid embedding model if needed
+    from langchain_huggingface import HuggingFaceEmbeddings
+    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     print("\n--- Finished creating embeddings ---")
 
     # Create the vector store and persist it automatically
