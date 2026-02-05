@@ -46,7 +46,7 @@ combined_input = (
 )
 
 # Create a ChatOpenAI model
-model = ChatGoogleGenerativeAI(model="gemini-pro")
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 # Define the messages for the model
 messages = [

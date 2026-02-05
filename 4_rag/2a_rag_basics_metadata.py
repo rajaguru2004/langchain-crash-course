@@ -44,7 +44,8 @@ if not os.path.exists(persistent_directory):
             documents.append(doc)
 
     # Split the documents into chunks
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    from langchain.text_splitter import RecursiveCharacterTextSplitter
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
     docs = text_splitter.split_documents(documents)
 
     # Display information about the split documents
@@ -58,10 +59,29 @@ if not os.path.exists(persistent_directory):
     )  # Update to a valid embedding model if needed
     print("\n--- Finished creating embeddings ---")
 
-    # Create the vector store and persist it
+    # Create the vector store and persist it automatically
     print("\n--- Creating and persisting vector store ---")
-    db = Chroma.from_documents(
-        docs, embeddings, persist_directory=persistent_directory)
+    
+    # Process in batches to avoid rate limits
+    batch_size = 10
+    import time
+    
+    # Initialize the vector store with the first batch or empty if suitable, 
+    # but here we'll just create it with the first batch and add the rest
+    if docs:
+        # Create db with first batch
+        first_batch = docs[:batch_size]
+        print(f"Processing batch 1/{len(docs)//batch_size + 1}")
+        db = Chroma.from_documents(
+            first_batch, embeddings, persist_directory=persistent_directory)
+        
+        # Add remaining batches
+        for i in range(batch_size, len(docs), batch_size):
+            batch = docs[i:i+batch_size]
+            print(f"Processing batch {i//batch_size + 1}/{len(docs)//batch_size + 1}")
+            db.add_documents(batch)
+            time.sleep(1)  # Sleep to respect rate limits
+            
     print("\n--- Finished creating and persisting vector store ---")
 
 else:
