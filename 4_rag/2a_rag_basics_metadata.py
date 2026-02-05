@@ -45,7 +45,7 @@ if not os.path.exists(persistent_directory):
 
     # Split the documents into chunks
     from langchain.text_splitter import RecursiveCharacterTextSplitter
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=0)
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=0)
     docs = text_splitter.split_documents(documents)
 
     # Display information about the split documents
