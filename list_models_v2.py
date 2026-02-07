@@ -22,9 +22,11 @@ print("Configured genai with API key.", flush=True)
 try:
     print("Listing models...", flush=True)
     count = 0
-    for m in genai.list_models():
-        count += 1
-        print(f"Found model: {m.name}", flush=True)
+    with open("available_models.txt", "w") as f:
+        for m in genai.list_models():
+            count += 1
+            print(f"Found model: {m.name}", flush=True)
+            f.write(f"{m.name}\n")
     print(f"Total models found: {count}", flush=True)
 except Exception as e:
     print(f"Error listing models: {e}", flush=True)

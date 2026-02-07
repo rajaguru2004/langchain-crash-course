@@ -34,7 +34,7 @@ print(f"Sample chunk:\n{docs[0].page_content}\n")
 
 # Step 3: Create embeddings for the document chunks
 # OpenAIEmbeddings turns text into numerical vectors that capture semantic meaning
-embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
 # Step 4: Create and persist the vector store with the embeddings
 # Chroma stores the embeddings for efficient searching
