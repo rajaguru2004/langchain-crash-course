@@ -1,11 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import CharacterTextSplitter
-from langchain_community.document_loaders import TextLoader
-from langchain_community.vectorstores import Chroma
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 
 load_dotenv()
 
@@ -47,25 +43,23 @@ def create_vector_store(docs, embeddings, store_name):
             f"Vector store {store_name} already exists. No need to initialize.")
 
 
-# 1. OpenAI Embeddings
-# Uses OpenAI's embedding models.
-# Useful for general-purpose embeddings with high accuracy.
-# Note: The cost of using OpenAI embeddings will depend on your OpenAI API usage and pricing plan.
-# Pricing: https://openai.com/api/pricing/
-print("\n--- Using OpenAI Embeddings ---")
-openai_embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
-create_vector_store(docs, openai_embeddings, "chroma_db_openai")
-
-# 2. Hugging Face Transformers
+# 1. Hugging Face Embeddings (all-MiniLM-L6-v2)
 # Uses models from the Hugging Face library.
 # Ideal for leveraging a wide variety of models for different tasks.
-# Note: Running Hugging Face models locally on your machine incurs no direct cost other than using your computational resources.
-# Note: Find other models at https://huggingface.co/models?other=embeddings
-print("\n--- Using Hugging Face Transformers ---")
-huggingface_embeddings = HuggingFaceEmbeddings(
+print("\n--- Using Hugging Face Embeddings (all-MiniLM-L6-v2) ---")
+huggingface_embeddings_1 = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+create_vector_store(docs, huggingface_embeddings_1, "chroma_db_huggingface_1")
+
+# 2. Hugging Face Embeddings (all-mpnet-base-v2)
+# Uses models from the Hugging Face library.
+# Ideal for leveraging a wide variety of models for different tasks.
+print("\n--- Using Hugging Face Embeddings (all-mpnet-base-v2) ---")
+huggingface_embeddings_2 = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-mpnet-base-v2"
 )
-create_vector_store(docs, huggingface_embeddings, "chroma_db_huggingface")
+create_vector_store(docs, huggingface_embeddings_2, "chroma_db_huggingface_2")
 
 print("Embedding demonstrations for OpenAI and Hugging Face completed.")
 
@@ -98,7 +92,7 @@ def query_vector_store(store_name, query, embedding_function):
 query = "Who is Odysseus' wife?"
 
 # Query each vector store
-query_vector_store("chroma_db_openai", query, openai_embeddings)
-query_vector_store("chroma_db_huggingface", query, huggingface_embeddings)
+query_vector_store("chroma_db_huggingface_1", query, huggingface_embeddings_1)
+query_vector_store("chroma_db_huggingface_2", query, huggingface_embeddings_2)
 
 print("Querying demonstrations completed.")

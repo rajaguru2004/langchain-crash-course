@@ -29,7 +29,7 @@ if not os.path.exists(persistent_directory):
     documents = loader.load()
 
     # Split the document into chunks
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
     docs = text_splitter.split_documents(documents)
 
     # Display information about the split documents
@@ -37,10 +37,12 @@ if not os.path.exists(persistent_directory):
     print(f"Number of document chunks: {len(docs)}")
     print(f"Sample chunk:\n{docs[0].page_content}\n")
 
-    # Create embeddings - using Google GenAI (to match 1b_rag_basics.py)
+    # Create embeddings - using HuggingFace
     print("\n--- Creating embeddings ---")
-    from langchain_google_genai import GoogleGenerativeAIEmbeddings
-    embeddings = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004")
+    from langchain_huggingface import HuggingFaceEmbeddings
+    embeddings = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-MiniLM-L6-v2"
+    )
     print("\n--- Finished creating embeddings ---")
 
     # Create the vector store and persist it automatically
